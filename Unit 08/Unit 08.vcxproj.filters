@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="variable.c">
+    <ClCompile Include="real_number.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="variable_multiple_decl.c">
+    <ClCompile Include="real_number_exponential_notation.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="variable_decl_init.c">
+    <ClCompile Include="real_number_sizeof.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="practive_variable.c">
+    <ClCompile Include="real_number_min_max.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="real_number_overflow_underflow.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,16 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="variable.c">
+    <ClCompile Include="integer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="variable_multiple_decl.c">
+    <ClCompile Include="unsigned_integer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="variable_decl_init.c">
+    <ClCompile Include="integer_overflow.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="practive_variable.c">
+    <ClCompile Include="integer_sizeof.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_type_sizeof.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_min.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_max_overflow.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_min_underflow.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="integer_stdint.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

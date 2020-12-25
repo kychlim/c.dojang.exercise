@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if_elseif_else.c">
+    <ClCompile Include="for_infinite_loop.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

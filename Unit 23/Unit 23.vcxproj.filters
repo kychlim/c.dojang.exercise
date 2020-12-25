@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if_elseif_else.c">
+    <ClCompile Include="bitwise_asign.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

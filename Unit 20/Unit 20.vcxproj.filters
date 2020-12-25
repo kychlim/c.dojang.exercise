@@ -15,7 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if_elseif_else.c">
+    <None Include="readme.md">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ternary_conditional_operator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="conparison_ternary_conditional_operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

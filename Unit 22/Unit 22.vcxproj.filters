@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="if_elseif_else.c">
+    <ClCompile Include="boolean.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="if_boolean.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

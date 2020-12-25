@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{28b42aaa-f771-43d2-9736-9fd58393a6a8}</ProjectGuid>
-    <RootNamespace>Unit18</RootNamespace>
+    <ProjectGuid>{fc484484-559d-47e3-8517-b3abd11cd08e}</ProjectGuid>
+    <RootNamespace>Unit20</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,13 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="if_assign.c">
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="conparison_ternary_conditional_operator.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="if_else_brace_two_lines.c">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="if_else_mulyiple_cond_exp.c">
+    <ClCompile Include="ternary_conditional_operator.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="while_random.c">
+    <ClCompile Include="goto_error_pattern.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="string_pointer_element_assign_error.c">
+    <ClCompile Include="string_copy_pointer_to_memory.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string_concatenate_array_to_memory.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

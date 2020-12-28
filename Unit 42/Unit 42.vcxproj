@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b6688cdb-6328-4b70-95f7-fba53ccdd9c5}</ProjectGuid>
-    <RootNamespace>Unit39</RootNamespace>
+    <ProjectGuid>{75ae2cac-458c-4536-a1ce-5cae04b7a5af}</ProjectGuid>
+    <RootNamespace>Unit42</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="string_pointer_element_assign_error.c" />
+    <ClCompile Include="string_concatenate_array_to_memory.c" />
+    <ClCompile Include="string_copy_pointer_to_memory.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

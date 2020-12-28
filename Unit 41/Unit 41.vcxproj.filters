@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="string_pointer_element_assign_error.c">
+    <ClCompile Include="string_scanf_compare.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
